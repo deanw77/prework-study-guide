@@ -3,28 +3,115 @@
 <html lang="en">
 
   <head>
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" 
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Prework Study Guide</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
 
   </head>
 
   <body>
 
     <header id="top">
+
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
+
     </header>
-    
+
     <main>
-      <!-- Student code goes here -->
+
+      <section class="card" id="html-section">
+
+        <h2>HTML</h2>
+
+        <ul>
+          <li>The head element contains 'meta data', infomation that the user doesn't see but helps browsers find and use the page.</li>
+          <li>The body element contains all the information that will be displayed on the page.</li>
+          <li>One element nested inside another element is called a child element.</li>
+          <li>Inside img tags, alt attributes are always used to assist visually impared users and search engines.</li>
+          <li>HTML stands for HyperText Markup Language.</li>
+          <li>The link tag is used to attach an external document to you HTML file.</li>
+          <li>The script tag is placed at the bottom of the page before the closing body tag.</li>
+          <ul>
+            <li>This is so the page can fully load before the JavaScript tries to access elements.</li>
+          </ul>
+          <li>Tags can be semantic ie 'section', 'header', 'footer'. This provides more information to the browser about the content of these tags.</li>
+          <li>Other tags like 'div' and 'br' have no semantic meaning but can still be used to seperate a page into different elements.</li>
+        </ul>
+
+      </section>
+
+      <section class="card" id="css-section">
+
+        <h2>CSS</h2>
+
+        <ul>
+          <li>CSS stands for Cascading Style Sheets.</li>
+          <li>It is used to make the page visually appealing and easier to read.</li>
+          <li>CSS can also be used to pages display properly on multiple screen sizes, like Desktops and Mobile Phones.</li>
+          <li>CSS can be written inside the HTML document using style tags, but it is better practice to link to an externall CSS file.</li>
+          <li>Using CSS makes it easier to change the look of multiple elements with minimal changes to the code.</li>
+          <li>Margin = Area outside of an element. Padding = Space around the content inside the element.</li>
+          <li>A border is drawn around the outside of the padding but the margin is outside of the border.</li>
+          <li>CSS takes identifiers like 'h1' or 'section' and allows to to assign properties and attributes to style them.</li>
+          <li> You can create your own identifiers by using class and/or id in the HTML and assigning it a name.</li>
+          <ul>
+            <li>A class can be used for multiple elements and is accessed in CSS by .className</li>
+            <li>An ID should only be used for one element and is accessed in CSS by #idName</li>
+          </ul>
+          <li>If an element has both a Class and an Id, the CSS will prioritize the id rules as they are more specific to the element.</li>
+        </ul>
+
+      </section>
+
+      <section class="card" id="git-section">
+
+        <h2>GIT</h2>
+
+        <ul>
+          <li>GIT is a version Control System.</li>
+          <li>It allows multiple team members to make changes to code and allows changes to be checked before being merged.</li>
+          <li>GIT is often used via a CLI (Command Line Interface). Some common commands are:</li>
+          <ul>
+            <li><code>git checkout -b branch-name </code>: Creates a new branch and switches to it.</li>
+            <li><code>git status </code>: Checks what branch we are currently on and shows modified files.</li>
+            <li><code>git clone [url] </code>: Copies a repository from the URL and creates a local copy on your maching.</li>
+            <li><code>git commit -m "Description" </code>: Commits your changes .</li>
+          </ul>
+          <li>Git Pages allows you to make you site viewable on a browser, but it must contain an index.html file at the root.</li>
+          
+        </ul>
+
+      </section>
+
+      <section class="card" id="javascript-section">
+
+        <h2>JavaScript</h2>
+
+        <ul>
+          <li>A variable can store data in the for of Strings, Characters, Ints, Floats, Arrays and Booleans.</li>
+          <li>An Array can store multiple chunks of data.</li>
+          <li>A for loop will repeat for a predetermined number of times.</li>
+          <li>An if or if-else loop will exectute if the condition returns True.</li>
+        </ul>
+
+      </section>
+
     </main>
 
     <footer>
+
       <p>I can code!</p>
+
     </footer>
+
+    <script src="assets/script.js"></script>
 
   </body>
 </html>
